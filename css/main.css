@@ -1,36 +1,79 @@
 /* COMMON */
-body {}
-.page {}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  /* text-transform: none; */
+  text-decoration: none;
+  color: inherit;
+}
+.page {
+  display: flex;
+  flex-direction: column;
 
-
-
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/anonymous-server-background.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
 /* HEADER */
-.page__header {}
-.nav-trigger {}
-
-
-
+.page__header {
+}
+.nav-trigger {
+  align-self: flex-start;
+  position: relative;
+  top: 6.5vh;
+  left: 90vw;
+}
 
 /* MENU */
-.nav {}
-.nav__items {}
-.nav__item {}
-.nav__link {}
-.nav-close {}
-
-
-
+.nav {
+  background-color: RGBA(68, 46, 46, 0.8);
+}
+.nav__items {
+}
+.nav__item {
+}
+.nav__link {
+  color: #ffffff;
+}
+.nav-close {
+  align-self: flex-start;
+  position: relative;
+  top: -20vh;
+  left: 90vw;
+  display: none;
+}
 
 /* MAIN */
-.page__main {}
-.page__wrapper {}
-.page__main-title {}
-
-
-
+.page__main {
+}
+.page__wrapper {
+}
+.page__main-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: bold;
+}
 
 /* FOOTER */
-.page__footer {}
-.page__footer {}
-.page__footer-copy {}
+.page__footer {
+}
+.page__footer {
+  max-width: 75%;
+  background: rgba(156, 156, 156, 0.5);
+  text-align: center;
+}
+.page__footer-copy {
+  color: #d7d7d7;
+}
