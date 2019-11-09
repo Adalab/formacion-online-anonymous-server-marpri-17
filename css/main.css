@@ -9,7 +9,6 @@ ul {
   list-style: none;
 }
 a {
-  /* text-transform: none; */
   text-decoration: none;
   color: inherit;
 }
@@ -85,6 +84,12 @@ a {
 
 /* MAIN */
 .page__main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -16%;
+  padding: 0 0 0 100px;
+  font-size: 0;
 }
 .page__wrapper {
 }
