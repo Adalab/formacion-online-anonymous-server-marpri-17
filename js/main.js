@@ -14,6 +14,7 @@ menuNav.classList.add("js-hidden")
 function toggleMenu() {
     menuNav.classList.toggle("js-hidden");
     buttonCloseMenu.classList.toggle("js-hidden");
+    buttonOpenMenu.classList.toggle("js-hidden")
 }
 
 buttonOpenMenu.addEventListener("click", toggleMenu);
