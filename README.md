@@ -6,6 +6,11 @@
 ### [Online version ](http://beta.adalab.es/formacion-online-anonymous-server-marpri-17/)
 
 
+**Requiered:**
+- Do not modify HTML code already existing at the proyect
+- **Responsive**
+
+
 #### MOCKUP
 
 **Mobile first design** - 320px
@@ -27,7 +32,3 @@
 ![desktop hero](/guias/desktop/00-desktop.png)
 ![desktop menu](/guias/desktop/01-menu-desktop.png)
 
-
-**Requiered:**
-- Do not modify HTML code already existing at the proyect
-- **Responsive**
