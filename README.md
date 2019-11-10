@@ -3,7 +3,7 @@
 ## Anonymous Server
 #### HTML5 | CSS3 | JavaScript
 
-### ![Online version ](http://beta.adalab.es/formacion-online-anonymous-server-marpri-17/)
+### [Online version ](http://beta.adalab.es/formacion-online-anonymous-server-marpri-17/)
 
 
 #### MOCKUP
@@ -13,7 +13,7 @@
 ![mobile menu]("./guias/mobile/01-menu-mobile.png")
 
 **Tablet version** - 768px
-![tablet hero]("./guias/mobile/00-tablet.png")
+![tablet hero](https://raw.githubusercontent.com/marpri-17/formacion-online-anonymous-server-marpri-17/master/guias/mobile/00-mobile.png)
 ![table menu]("./guias/mobile/01-menu-tablet.png")
 
 
