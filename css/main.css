@@ -49,8 +49,8 @@ a {
   position: relative;
   top: 6.5vh;
   left: 75vw;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background: url("../images/ico-menu.svg");
   background-color: rgba(0, 0, 0, 0.8);
   background-size: cover;
@@ -107,11 +107,11 @@ a {
 .nav-close {
   align-self: flex-start;
   position: relative;
-  top: -62.5%;
+  top: -61%;
   left: 75vw;
   z-index: 2;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background: url("../images/ico-close.svg");
   background-color: black;
   background-size: cover;
@@ -163,7 +163,7 @@ a {
 .page__footer-copy {
   margin: 3px;
   font-size: 0.8rem;
-  color: #d7d7d7;
+  color: rgba(156, 156, 156, 0.8);
 }
 
 /* MEDIA QUERYS */
@@ -176,7 +176,9 @@ a {
   }
 
   .page__main {
+    justify-content: flex-start;
     top: -15%;
+    padding-left: 6%;
   }
   .page__main-title {
     font-size: 5rem;
@@ -198,22 +200,18 @@ a {
   /* HERO */
   .nav-trigger {
     left: 90vw;
-    width: 5rem;
-    height: 5rem;
   }
   .page__main-title {
-    font-size: 7rem;
+    font-size: 6rem;
   }
   .page__main {
-    top: -5%;
+    top: -10%;
   }
 
   /* MENU */
   .nav-close {
     left: 90vw;
     top: -66.9%;
-    width: 5rem;
-    height: 5rem;
   }
   .nav__item {
     font-size: 3rem;
